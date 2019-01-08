@@ -11,6 +11,8 @@ namespace Alergies_OOP
             Console.WriteLine(alergy.TestAlergy(Alergy.Alergies.Peanuts));
             alergy.AddAlergy(Alergy.Alergies.Strawberries);
             Console.WriteLine(alergy.ListAlergy());
+
+            Console.WriteLine("branch test");
         }
     }
 }
